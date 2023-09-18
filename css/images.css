@@ -1,0 +1,26 @@
+.manatee-1 {
+  background-image: url(../images/manatee.jpg);
+  height: 200px;
+}
+
+img {
+  height: 307px;
+  width: 200px;
+  object-fit: cover;
+}
+
+.color-1 {
+  filter: blur(3px) saturate(5.5) hue-rotate(30deg);
+}
+
+.color-2 {
+  filter: invert(1);
+}
+
+.image-stack {
+  position: relative;
+}
+
+.image-stack img {
+  position: absolute;
+}

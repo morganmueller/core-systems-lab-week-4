@@ -1,0 +1,32 @@
+html {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  color: hsl(240, 2%, 2%);
+  background-color: hsl(240, 2%, 99%);
+  font-size: 18px;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  display: flex;
+}
+
+.element {
+  background-color: red;
+  height: 100vh;
+  flex-grow: 1;
+  margin: 8px;
+}
+
+.element-1 {
+  flex-grow: 3;  
+}
+
+.element-2 {
+  flex-grow: 1;
+}
+
